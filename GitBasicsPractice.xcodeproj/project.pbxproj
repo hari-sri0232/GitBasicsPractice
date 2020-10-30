@@ -15,6 +15,8 @@
 		B386244A254BD5CB002757ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3862448254BD5CB002757ED /* LaunchScreen.storyboard */; };
 		B3862455254BD5CB002757ED /* GitBasicsPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3862454254BD5CB002757ED /* GitBasicsPracticeTests.swift */; };
 		B3862460254BD5CB002757ED /* GitBasicsPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B386245F254BD5CB002757ED /* GitBasicsPracticeUITests.swift */; };
+		B3862471254BD86A002757ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3862470254BD86A002757ED /* Constants.swift */; };
+		B3862476254BD8C7002757ED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3862475254BD8C7002757ED /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B386245B254BD5CB002757ED /* GitBasicsPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitBasicsPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B386245F254BD5CB002757ED /* GitBasicsPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitBasicsPracticeUITests.swift; sourceTree = "<group>"; };
 		B3862461254BD5CB002757ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3862470254BD86A002757ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3862475254BD8C7002757ED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				B386243D254BD5C8002757ED /* AppDelegate.swift */,
 				B386243F254BD5C8002757ED /* SceneDelegate.swift */,
 				B3862441254BD5C8002757ED /* ViewController.swift */,
+				B3862470254BD86A002757ED /* Constants.swift */,
+				B3862475254BD8C7002757ED /* NetworkManager.swift */,
 				B3862443254BD5C8002757ED /* Main.storyboard */,
 				B3862446254BD5CB002757ED /* Assets.xcassets */,
 				B3862448254BD5CB002757ED /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			files = (
 				B3862442254BD5C8002757ED /* ViewController.swift in Sources */,
 				B386243E254BD5C8002757ED /* AppDelegate.swift in Sources */,
+				B3862476254BD8C7002757ED /* NetworkManager.swift in Sources */,
 				B3862440254BD5C8002757ED /* SceneDelegate.swift in Sources */,
+				B3862471254BD86A002757ED /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
